@@ -7,19 +7,18 @@
 </head>
 
 <body>
-  <form method="post">
-    Nom : <input type="name" name="name" value="{{ name }}" /><br />
-    Courriel : <input type="email" name="email" value="{{ email }}" /><br />
-    Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ? :
-    <input type="radio" id="{{ Api0.value }}" name="choicesapi" value="{{ Api0.value }}">
-    <label for="{{ Api0.value }}">{{ Api0.label }}</label><br>
-    <input type="radio" id="{{ Api1.value }}" name="choicesapi" value="{{ Api1.value }}">
-    <label for="{{ Api1.value }}">{{ Api1.label }}</label><br>
-    <input type="radio" id="{{ Api2.value }}" name="choicesapi" value="{{ Api2.value }}">
-    <label for="{{ Api2.value }}">{{ Api2.label }}</label>
-    <input type="submit">
+  <form method="POST">
+    <div>
+      Nom: {{ dataposition_form.name }}<br />
+      Email: {{ dataposition_form.email }}
+    </div>
+    {% for q_form in dataposition_form.questions %}
+    <div>
+      {{ q_form.question.label }}: {{ q_form.question }}
+    </div>
+    {% endfor %}
+    <button type="submit">Envoyer</button>
   </form>
-  <p>Merci de remplir le formulaire !</p>
 </body>
 
 </html>

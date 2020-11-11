@@ -10,7 +10,9 @@
   <p>Vos informations de contact: {{ name }} &lt;{{ email }}&gt;</p>
   <p>Votre bilan :</p>
   <ul>
-    <li>Question 1 : {{ c_api }}</li>
+    {% for p_id, p_score in profile_scores %}
+    <li>{{ p_id }} : {{ p_score }}</li>
+    {% endfor %}
   </ul>
 </body>
 
