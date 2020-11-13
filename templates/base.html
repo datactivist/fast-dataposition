@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    {% block head %}
+    <link rel="stylesheet" href="static/style.css" />
+    <title>{% block title %}{% endblock %} - Dataposition</title>
+    {% endblock %}
+</head>
+
+<body>
+    <div id="header">
+        {% block header %}
+        Dataposition, un outil <a href="https://datactivist.coop">Datactivist</a>
+        conçu pour le concours DataBât.
+        <small>Sur une idée de la <a href="https://infolabs.io/content/qui-sommes-nous">Campagne Infolab</a>.</small>
+        {% endblock %}
+    </div>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        {% block footer %}
+        Dataposition, un outil <a href="https://datactivist.coop">Datactivist</a>
+        conçu pour le concours DataBât.
+        <small>Sur une idée de la <a href="https://infolabs.io/content/qui-sommes-nous">Campagne Infolab</a>.</small>
+        {% endblock %}
+    </div>
+</body>
+
+</html>

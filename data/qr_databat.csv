@@ -1,9 +1,4 @@
 ﻿Valeur de réponse,Question,Profil,Pondération (1 à 4)
-Je gère la plupart de mes émotions.,,,2
-"Non, je ne sais faire que des courbes et encore sur papier",,,1
-"Oui, je prends ",,,2
-Nuage de points,,,3
-Treemap interactif multi-niveaux,,,4
 J'ai une mauvaise connaissance des acteurs et de leurs besoins.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,0
 Je suis capable d'identifier les besoins et les contraintes de mes interlocuteurs.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,2
 Je suis capable d'identifier les besoins et d'adapter mon discours en fonction de mon interlocuteur.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,3
@@ -18,7 +13,7 @@ Je l'ai déjà fait plusieurs fois mais le petit sentiment de stress est toujour
 "Oui, j'ai déjà un bon carnet d'adresses que je sais mobiliser et je saurais le compléter.",Saurez-vous identifier les interlocuteurs susceptibles d'être intéressés par le projet sur lequel vous allez travailler ?,Ambassadeur,3
 J'ai déjà un petit carnet d'adresse de collaborateurs proches avec qui j'entretiens des relations privilégiées.,Saurez-vous identifier les interlocuteurs susceptibles d'être intéressés par le projet sur lequel vous allez travailler ?,Ambassadeur,2
 Je connais quelques personnes mais j'ai du mal à péreniser mes rélations professionnelles.,Saurez-vous identifier les interlocuteurs susceptibles d'être intéressés par le projet sur lequel vous allez travailler ?,Ambassadeur,1
-Je ne connais personnes dans ce domaine.,Saurez-vous identifier les interlocuteurs susceptibles d'être intéressés par le projet sur lequel vous allez travailler ?,Ambassadeur,0
+Je ne connais personne dans ce domaine.,Saurez-vous identifier les interlocuteurs susceptibles d'être intéressés par le projet sur lequel vous allez travailler ?,Ambassadeur,0
 La contrainte est source de créativité : je relève le challenge avec enthousiasme !,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,4
 Je suis volontaire mais j'ai besoin d'aide,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,2
 Je ne suis pas très à l'aise avec l'exercice,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,1
@@ -69,11 +64,11 @@ Je rédige régulièrement des métadonnées,Savez-vous constituer un catalogue 
 Je connais la Directive INSPIRE,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,3
 Je sais rédiger des scripts qui permettent d'afficher un jeu de données dans un catalogue.,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,4
 C'est quoi une métadonnée ?,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,0
-Je ne connais aucun langage de développement,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,0
+Je ne connais aucun langage de développement.,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,0
 Il m'est arrivé de faire du HTML/CSS pour des sites web,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,2
 "J'arrive à me débrouiller sur un langage (C++, C#, PHP, Python, javascript...)",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,3
 Je maîtrise parfaitement au moins un langage de développement,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,4
-Les langages de programmation par blocs ça compte ?,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,1
+"Je sais automatiser des processus avec des langages de blocs (comme Scratch) ou des outils comme Zapier, IFTT ou Integromat. Ca compte ?",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,1
 Je n'ai jamais produit de carte dynamique et je ne saurais pas comment faire.,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,0
 J'ai déjà utilisé Umap ou Google Maps pour mettre en ligne une carte dynamique sur un site web,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,2
 "J'utilise des logiciels de datascience ou de géomatique pour créer des cartes dynamique en ligne (R, QGis, ArcGis online...)",Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,3
@@ -137,7 +132,7 @@ Je sais gérer mes émotions et celles des autres jusqu'à prévenir les moments
 Haha ! Je ne les gère pas 😅.,Comment gérez-vous les émotions ?,Pilote,0
 Pour bien travailler j'ai besoin que l'on me confie une tâche claire pour une date précise,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,1
 Je suis à l'aise avec le fait de travailler sur une tâche qui peut dépendre du travail de quelqu'un d'autre,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,2
-"J'aime travailler sur une mission de groupe sans date pécise, parfois même dans l'urgence.","""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,3
+"J'aime travailler sur une mission de groupe sans date précise, parfois même dans l'urgence.","""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,3
 J'organise le travail de l'équipe entière tout en m'attribuant des tâches personnelles,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,4
 "Je ne sais pas ce que c'est, je n'en ai jamais fait...",Sauriez-vous animer un atelier d'idéation ?,Pilote,0
 J'ai déjà participé à ce genre d'ateliers mais je ne crois pas être capable d'en animer un... Peut-être avec l'aide de quelqu'un d'autre ?,Sauriez-vous animer un atelier d'idéation ?,Pilote,1

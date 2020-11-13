@@ -1,19 +1,45 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Formulaire dataposition: bilan</title>
-</head>
-
-<body>
-  <p>Vos informations de contact: {{ name }} &lt;{{ email }}&gt;</p>
-  <p>Votre bilan :</p>
-  <ul>
-    {% for p_id, p_score in profile_scores %}
-    <li>{{ p_id }} : {{ p_score }}</li>
-    {% endfor %}
-  </ul>
-</body>
-
-</html>
+{% extends "base.html" %}
+{% block title %}Bilan{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+  {% for p_id, p_color in p_id2color.items() %}
+  .div-{{ p_id }}{
+    background-color: {{ p_color }}
+  }
+  {% endfor %}
+</style>
+{% endblock %}
+{% block content %}
+  <div class="div-{{ main_p_ids[0] }}">
+    <p>Vos informations de contact: {{ name }} &lt;{{ email }}&gt;</p>
+    <p>Votre bilan :</p>
+    <ul>
+      {% for p_id, p_score in profile_scores %}
+      <li>{{ p_id }} : {{ p_score }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% if main_profiles|length == 1 %}
+  <div>
+    Votre profil dominant est :
+    <div><img src="/static/media/{{ main_badges[0] }}" alt="{{ main_profiles[0] }}"></div>
+    <div>
+      Vous pouvez maintenant vous rendre sur le <a href="https://forum-databat.ademe.fr/">forum du concours</a>.
+      Le badge du profil {{ main_profiles[0] }} sera associé à votre compte, il vous aidera à
+      former une équipe complémentaire.
+    </div>
+  </div>
+  {% else %}
+  <div>
+    Nous hésitons entre ces profils :
+    <ul>
+      {% for p_id in main_profiles %}
+      <li>{{ p_id }}</li>
+      {% endfor%}
+    </ul>
+    Envoyez-nous <a href="mailto:aide.databat@datactivist.coop?subject=QuelProfil">un mail</a>
+    afin que nous puissions déterminer ensemble le profil le plus pertinent.
+  </div>
+  {% endif %}
+{% endblock %}

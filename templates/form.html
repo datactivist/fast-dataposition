@@ -1,24 +1,28 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Formulaire dataposition</title>
-</head>
-
-<body>
+{% extends "base.html" %}
+{% block title %}Formulaire{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+  {% for p_id, p_color in p_id2color.items() %}
+  .div-{{ p_id }}{
+    background-color: {{ p_color }}
+  }
+  {% endfor %}
+</style>
+{% endblock %}
+{% block content %}
+<div>
   <form method="POST">
     <div>
       Nom: {{ dataposition_form.name }}<br />
       Email: {{ dataposition_form.email }}
     </div>
     {% for q_form in dataposition_form.questions %}
-    <div>
-      {{ q_form.question.label }}: {{ q_form.question }}
+    <div class="div-{{ q_form.question.id.split('-', 1)[0] }}">
+      {{ q_form.question.label }} {{ q_form.question }}
     </div>
     {% endfor %}
     <button type="submit">Envoyer</button>
   </form>
-</body>
-
-</html>
+</div>
+{% endblock %}
