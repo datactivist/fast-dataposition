@@ -1,9 +1,9 @@
 ﻿Valeur de réponse,Question,Profil,Pondération (1 à 4)
-J'ai une mauvaise connaissance des acteurs et de leurs besoins.,Êtes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,0
-Je suis capable d'identifier les besoins et les contraintes de mes interlocuteurs.,Êtes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,2
-Je suis capable d'identifier les besoins et d'adapter mon discours en fonction de mon interlocuteur.,Êtes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,3
-Je suis capable d'adapter mon discours et de hierarchiser mes arguments en fonction des besoins et des contraintes de mon interlocuteurs.,Êtes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,4
-"Avec un peu d'humour, j'arrive toujours à donner le change 😉.",Êtes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,1
+J'ai une mauvaise connaissance des acteurs et de leurs besoins.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,0
+Je suis capable d'identifier les besoins et les contraintes de mes interlocuteurs.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,2
+Je suis capable d'identifier les besoins et d'adapter mon discours en fonction de mon interlocuteur.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,3
+Je suis capable d'adapter mon discours et de hierarchiser mes arguments en fonction des besoins et des contraintes de mon interlocuteurs.,Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,4
+"Avec un peu d'humour, j'arrive toujours à donner le change 😉.",Etes-vous capable d'adapter votre argumentation en fonction du public auquel vous vous adressez ?,Ambassadeur,1
 Cela me motive et je relève le défi avec enthousiasme.,Parler en public vous semble une tâche simple et cela vous plaît de le faire ? ,Ambassadeur,4
 Je m'en sens capable si je ne suis pas seul face au public.,Parler en public vous semble une tâche simple et cela vous plaît de le faire ? ,Ambassadeur,2
 Parler en public me demande beaucoup de préparation.,Parler en public vous semble une tâche simple et cela vous plaît de le faire ? ,Ambassadeur,1
@@ -19,7 +19,7 @@ Je suis volontaire mais j'ai besoin d'aide,Savez-vous présenter un projet en 18
 Je ne suis pas très à l'aise avec l'exercice,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,1
 Je ne m'en sens pas vraiment capable.,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,0
 Je vais travailler pour y arriver ! Il faut une première fois à tout !,Savez-vous présenter un projet en 180 sec ?,Ambassadeur,3
-LinkedIn : j'y poste mes présentations de travail pour donner à voir mes projets.,"""Si vous étiez un influenceur, sur quel réseau social auriez-vous construit votre réputation ?""",Ambassadeur,1
+LinkedIn : j'y poste mes présentations de travail pour donner à voir mes projets,"""Si vous étiez un influenceur, sur quel réseau social auriez-vous construit votre réputation ?""",Ambassadeur,1
 Instagram : je manie le langage des images et je sais les associers aux bons mots clés.,"""Si vous étiez un influenceur, sur quel réseau social auriez-vous construit votre réputation ?""",Ambassadeur,2
 "YouTube : je sais produire un discours vidéo rythmé, dynamique et efficace !","""Si vous étiez un influenceur, sur quel réseau social auriez-vous construit votre réputation ?""",Ambassadeur,3
 Je suis clairement multiplateforme ! J'aurais été partout !,"""Si vous étiez un influenceur, sur quel réseau social auriez-vous construit votre réputation ?""",Ambassadeur,4
@@ -54,31 +54,31 @@ Non mais je sais que c'est et j'en connais l'utilité.,Savez-vous réaliser une 
 "Oui, je l'ai déjà fait.",Savez-vous réaliser une jointure entre deux jeux de données ? ,Analyste,2
 "A l'aise blaise, left join, inner join et right join n'ont plus de secrets pour moi.",Savez-vous réaliser une jointure entre deux jeux de données ? ,Analyste,4
 "Une RECHERCHEV, les doigts dans le nez.",Savez-vous réaliser une jointure entre deux jeux de données ? ,Analyste,3
-Je sais ce que c'est mais je n'en ai jamais manipulée.,Que savez-vous sur les bases de données ?,Bâtisseur,1
-Je sais organiser les jeux de données par catégorie.,Que savez-vous sur les bases de données ?,Bâtisseur,2
-"Je connais un langage de gestion de base de données (Sql, MySql, NoSql ...).",Que savez-vous sur les bases de données ?,Bâtisseur,3
+Je sais ce que c'est mais je n'en ai jamais manipulée,Que savez-vous sur les bases de données ?,Bâtisseur,1
+Je sais organiser les jeux de données par catégorie,Que savez-vous sur les bases de données ?,Bâtisseur,2
+"Je connais un langage de gestion de base de données (Sql, MySql, NoSql ...)",Que savez-vous sur les bases de données ?,Bâtisseur,3
 Je sais mettre en place et gérer un système de gestion de bases de données.,Que savez-vous sur les bases de données ?,Bâtisseur,4
 Je ne sais pas ce que c'est...,Que savez-vous sur les bases de données ?,Bâtisseur,0
 Je sais ce qu'est une métadonnée.,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,1
-Je rédige régulièrement des métadonnées.,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,2
-Je connais la Directive INSPIRE.,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,3
+Je rédige régulièrement des métadonnées,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,2
+Je connais la Directive INSPIRE,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,3
 Je sais rédiger des scripts qui permettent d'afficher un jeu de données dans un catalogue.,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,4
 C'est quoi une métadonnée ?,Savez-vous constituer un catalogue de données à partir des métadonnées ?,Bâtisseur,0
 Je ne connais aucun langage de développement.,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,0
-Il m'est arrivé de faire du HTML/CSS pour des sites web.,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,2
-"J'arrive à me débrouiller sur un langage (C++, C#, PHP, Python, javascript...).",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,3
-Je maîtrise parfaitement au moins un langage de développement.,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,4
-"Je sais automatiser des processus avec des langages de blocs (comme Scratch) ou des outils comme Zapier, IFTT ou Integromat. Ça compte ?",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,1
+Il m'est arrivé de faire du HTML/CSS pour des sites web,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,2
+"J'arrive à me débrouiller sur un langage (C++, C#, PHP, Python, javascript...)",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,3
+Je maîtrise parfaitement au moins un langage de développement,Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,4
+"Je sais automatiser des processus avec des langages de blocs (comme Scratch) ou des outils comme Zapier, IFTT ou Integromat. Ca compte ?",Savez-vous créer un prototype de programme ? (requête et transformation de données en visualisation; en page web...),Bâtisseur,1
 Je n'ai jamais produit de carte dynamique et je ne saurais pas comment faire.,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,0
-J'ai déjà utilisé Umap ou Google Maps pour mettre en ligne une carte dynamique sur un site web.,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,2
-"J'utilise des logiciels de datascience ou de géomatique pour créer des cartes dynamique en ligne (R, QGis, ArcGis online...).",Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,3
-Je participe très régulièrement au développement d'applications de webmapping.,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,4
+J'ai déjà utilisé Umap ou Google Maps pour mettre en ligne une carte dynamique sur un site web,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,2
+"J'utilise des logiciels de datascience ou de géomatique pour créer des cartes dynamique en ligne (R, QGis, ArcGis online...)",Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,3
+Je participe très régulièrement au développement d'applications de webmapping,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,4
 Je n'ai jamais produit de carte dynamique moi-même mais je connais des outils grand public qui me permettrait de le faire.,Savez-vous utiliser les technologies pour réaliser une carte dynamique ?,Bâtisseur,1
-Je ne sais pas comment fonctionne une API.,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,1
+Je ne sais pas comment fonctionne une API,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,1
 Je sais ce qu'est une API mais je ne sais pas rédiger une requête.,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,2
 Je sais rédiger une requête simple.,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,3
 Je crée des connexions via API très régulièrement.,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,4
-Je ne sais pas ce qu'est une API.,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,0
+Je ne sais pas ce qu'est une API,Savez-vous utiliser une API et requêter des données de manière ponctuelle ou régulière ?,Bâtisseur,0
 "Je rêve encore d'un projet qui se déroule sans aucune contrainte : à chaque fois, j'imagine un truc chouette et les contraintes viennent tout gâcher...",Les contraintes liées à un projet et à son développement sont pour vous de véritables freins ou des leviers de créativité ?,Créatif,1
 "Des contraintes, il y en a forcément ! C'est parfois dommage, mais je sais faire avec !",Les contraintes liées à un projet et à son développement sont pour vous de véritables freins ou des leviers de créativité ?,Créatif,2
 "Hierarchisons les contraintes et remontons-nous les manches ! A chaque problème, il y a une solution !",Les contraintes liées à un projet et à son développement sont pour vous de véritables freins ou des leviers de créativité ?,Créatif,3
@@ -100,47 +100,47 @@ Playmobil ! Viens on va jouer avec les pirates !,"""Si vous deviez jouer avec de
 "Playmobil ! Viens, attaquons le camping car avec les pirates !","""Si vous deviez jouer avec des enfants aujourd'hui, que choisiriez vous ?""",Créatif,3
 Lego ! Viens on va les construire en suivant le plan de montage !,"""Si vous deviez jouer avec des enfants aujourd'hui, que choisiriez vous ?""",Créatif,2
 Lego ! Viens on va constuire un avion pizza !,"""Si vous deviez jouer avec des enfants aujourd'hui, que choisiriez vous ?""",Créatif,4
-"Pas du tout, je n'y connais rien.",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,0
+"Pas du tout, je n'y connais rien",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,0
 "Vaguement, je dois en connaitre une ou deux.",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,1
 "Oui, je les connais ainsi que leurs conditions d'attribution.",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,3
-"Parfaitement, j'accompagne la rédaction de dossiers de subventions.",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,4
+"Parfaitement, j'accompagne la rédaction de dossiers de subventions",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,4
 "Oui je connais les principales, parfois avec leurs conditions d'attribution.",Connaissez vous les différentes aides existantes pour la rénovation énergétique ?,Expert,2
-"Pas du tout, je n'ai jamais manipulé ce type de données.","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,0
-"Un peu, j'ai quelques notions.","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,1
-"Assez, je l'ai déjà fait quelques fois.","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,2
-"Oui vraiment, j'utilise régulièrement ce type de données.","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,3
+"Pas du tout, je n'ai jamais manipulé ce type de données","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,0
+"Un peu, j'ai quelques notions","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,1
+"Assez, je l'ai déjà fait quelques fois","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,2
+"Oui vraiment, j'utilise régulièrement ce type de données","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,3
 "Complètement, ces données n'ont aucun secret pour moi !","""Êtes vous à l'aise pour exploiter des données énergétiques (courbe de charge, consommation et puissance...) ?""",Expert,4
-Je sais ce que c'est mais je n'y connais pas grand chose.,Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,1
-"Un peu, j'ai quelques notions.",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,2
-"Oui, j'ai déjà travaillé sur ces questions.",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,3
-"Complètement, c'est le coeur de mon activité de tous les jours.",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,4
+Je sais ce que c'est mais je n'y connais pas grand chose,Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,1
+"Un peu, j'ai quelques notions",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,2
+"Oui, j'ai déjà travaillé sur ces questions",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,3
+"Complètement, c'est le coeur de mon activité de tous les jours",Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,4
 Je ne sais pas ce que c'est.,Êtes vous familier avec les problématiques de la précarité énergétique ?,Expert,0
 "Excellente, c'est le coeur de mon activité professionnelle.",Quelle est votre connaissance du marché de la rénovation énergétique ?,Expert,4
 "Je peux énumérer les acteurs (et pas que les plus évidents), je connais les grands enjeux.",Quelle est votre connaissance du marché de la rénovation énergétique ?,Expert,3
 Je peux énumérer quelques acteurs et je connais des enjeux.,Quelle est votre connaissance du marché de la rénovation énergétique ?,Expert,2
 Je sais qu'il y a des artisans qui font des travaux... 😅,Quelle est votre connaissance du marché de la rénovation énergétique ?,Expert,0
 Je connais les principaux acteurs du marché.,Quelle est votre connaissance du marché de la rénovation énergétique ?,Expert,1
-"Pas du tout, je n'y connais rien.",Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,0
+"Pas du tout, je n'y connais rien",Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,0
 J'ai fait quelques travaux de rénovation chez moi et je peux en tirer quelques bons conseils.,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,1
-Je connais les travaux les plus faciles et impactants.,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,3
-Je peux identifier les travaux les plus rentables et impactants à partir des caractéristiques du bâtiment concerné.,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,4
-J'ai quelques ordres de grandeur.,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,2
+Je connais les travaux les plus faciles et impactants,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,3
+Je peux identifier les travaux les plus rentables et impactants à partir des caractéristiques du bâtiment concerné ,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,4
+J'ai quelques ordres de grandeur,Sauriez vous conseiller quelqu'un sur des travaux de rénovation ?,Expert,2
 "Dans certaines situations (la fatigue par exemple), j'ai du mal à gérer mes émotions.",Comment gérez-vous les émotions ?,Pilote,1
 Je sais gérer mes émotions mais pas forcément celles des autres.,Comment gérez-vous les émotions ?,Pilote,2
 Je sais gérer mes émotions et celles des autres.,Comment gérez-vous les émotions ?,Pilote,3
 Je sais gérer mes émotions et celles des autres jusqu'à prévenir les moments de tension.,Comment gérez-vous les émotions ?,Pilote,4
 Haha ! Je ne les gère pas 😅.,Comment gérez-vous les émotions ?,Pilote,0
-Pour bien travailler j'ai besoin que l'on me confie une tâche claire pour une date précise.,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,1
-Je suis à l'aise avec le fait de travailler sur une tâche qui peut dépendre du travail de quelqu'un d'autre.,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,2
+Pour bien travailler j'ai besoin que l'on me confie une tâche claire pour une date précise,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,1
+Je suis à l'aise avec le fait de travailler sur une tâche qui peut dépendre du travail de quelqu'un d'autre,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,2
 "J'aime travailler sur une mission de groupe sans date précise, parfois même dans l'urgence.","""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,3
-J'organise le travail de l'équipe entière tout en m'attribuant des tâches personnelles.,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,4
+J'organise le travail de l'équipe entière tout en m'attribuant des tâches personnelles,"""Dans le cadre d'un travail d'équipe, vous préférez être celui/celle à qui on attribue une tâche claire et planifiée ou celui qui s'assure de la maitrise du temps et des délais ?""",Pilote,4
 "Je ne sais pas ce que c'est, je n'en ai jamais fait...",Sauriez-vous animer un atelier d'idéation ?,Pilote,0
 J'ai déjà participé à ce genre d'ateliers mais je ne crois pas être capable d'en animer un... Peut-être avec l'aide de quelqu'un d'autre ?,Sauriez-vous animer un atelier d'idéation ?,Pilote,1
 J'ai déjà participé à ce genre d'ateliers et je pense être capable d'en animer un.,Sauriez-vous animer un atelier d'idéation ?,Pilote,2
 "J'ai déjà animé ce genre d'ateliers, je peux tout à fait le refaire !",Sauriez-vous animer un atelier d'idéation ?,Pilote,4
 Le design thinking n'a pas de secret pour moi ! Je peux adapter le dispositif à toute situation grâce à mon expérience.,Sauriez-vous animer un atelier d'idéation ?,Pilote,5
 J'ai du mal à identifier les compétences des personnes avec qui je travaille.,Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,0
-Je suis capable d'identifier rapidement les compétences techniques des personnes avec qui je travaille.,Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,2
+Je suis capable d'identifier rapidement les compétences techniques des personnes avec qui je travaille,Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,2
 Je sais identifier les compétences techniques et comportementales des personnes avec qui je travaille.,Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,3
 Je sais évaluer rapidement la complémentarité des compétences de mes collaborateurs.,Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,4
 "Avec un peu de temps, sans doute !",Savez-vous identifier les compétences de vos collaborateurs ?,Pilote,1

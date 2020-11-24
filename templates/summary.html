@@ -4,14 +4,15 @@
 {{ super() }}
 <style type="text/css">
   {% for p_id, p_color in p_id2color.items() %}
-  .div-{{ p_id }}{
-    background-color: {{ p_color }}
+  .profile-{{ p_id }}{
+    background-color: {{ p_color }};
+    color: white;
   }
   {% endfor %}
 </style>
 {% endblock %}
 {% block content %}
-  <div class="div-{{ main_p_ids[0] }}">
+  <div class="profile-{{ main_p_ids[0] }}">
     <p>Vos informations de contact: {{ name }} &lt;{{ email }}&gt;</p>
     <p>Votre bilan :</p>
     <ul>

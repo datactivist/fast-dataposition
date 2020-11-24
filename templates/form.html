@@ -1,16 +1,14 @@
-{% extends "base.html" %}
-{% block title %}Formulaire{% endblock %}
-{% block head %}
-{{ super() }}
+{% extends "base.html" %} {% block title %}Formulaire{% endblock %} {% block
+head %} {{ super() }}
 <style type="text/css">
   {% for p_id, p_color in p_id2color.items() %}
-  .div-{{ p_id }}{
-    background-color: {{ p_color }}
+  .profile-{{ p_id }}{
+    background-color: {{ p_color }};
+    color: white;
   }
   {% endfor %}
 </style>
-{% endblock %}
-{% block content %}
+{% endblock %} {% block content %}
 <div>
   <form method="POST">
     <div>
@@ -18,8 +16,15 @@
       Email: {{ dataposition_form.email }}
     </div>
     {% for q_form in dataposition_form.questions %}
-    <div class="div-{{ q_form.question.id.split('-', 1)[0] }}">
-      {{ q_form.question.label }} {{ q_form.question }}
+    <div>
+      <fieldset>
+        <legend class="profile-{{ q_form.question.id.split('-', 1)[0] }}">
+        {{ q_form.question.label }}
+        </legend>
+        {% for answer in q_form.question %}
+        {{ answer }} {{ answer.label }}<br/>
+        {% endfor %}
+      </fieldset>
     </div>
     {% endfor %}
     <button type="submit">Envoyer</button>

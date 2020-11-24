@@ -37,7 +37,10 @@ class QuestionForm(StarletteForm):
     # - weighted answers (choices)
     # we coerce the form data to int (for the weight)
     # FIXME coercion does not work ?
-    question = RadioField("<Question>", choices=[], coerce=int)
+    # FIXME DataRequired does not work ? https://github.com/wtforms/wtforms/issues/477
+    question = RadioField(
+        "<Question>", choices=[], coerce=int, validators=[DataRequired()]
+    )
     # if we wanted to add a free text field to each question, it would be here
 
 
@@ -53,6 +56,7 @@ CSV_QA = "data/qr_databat.csv"
 df = load_qa(Path(CSV_QA))
 pqwas = df_to_nesteddict(df)
 
+# TODO move out to config file
 # profiles: id, name, color, badge
 profiles = [
     ("ambassadeur", "Ambassadeur", "#6EA0CC", "dataposition_ambassadeur.png"),
@@ -62,6 +66,7 @@ profiles = [
     ("expert", "Expert", "#46C39B", "dataposition_expert.png"),
     ("pilote", "Pilote", "#FBCF1A", "dataposition_pilote.png"),
 ]
+#
 p_name2id = {p_name: p_id for p_id, p_name, _, _ in profiles}
 p_id2name = {p_id: p_name for p_id, p_name, _, _ in profiles}
 p_id2badge = {p_id: p_badge for p_id, _, _, p_badge in profiles}
@@ -90,6 +95,10 @@ def get_questions(request: Request, order: str = "keep") -> List[QuestionForm]:
             q_form = QuestionForm(request, prefix=q_form_id)
             q_form.question.label = q
             q_form.question.choices = [(w, a) for w, a in sorted(wa.items())]
+            # select the lowest value as the default answer
+            q_form.question.data = q_form.question.choices[0][0]
+            print(repr(q_form.question.data))
+            print(repr(q_form.question.choices))
             q_forms.append(q_form)
     # randomize the order of questions
     if order == "shuffle":
@@ -121,6 +130,8 @@ async def get_form(request: Request):
 
 
 # TODO
+# - espacer les fieldsets
+# - bilan : centrer le badge (horizontal)
 # - ajouter le logo de datactivist dans le bandeau (footer?)
 # - ajouter un logo du concours d'innovation (header?)
 # - stockage BDD ou airtable, au plus simple pour moi mais il faut un CSV de sortie pour @julia

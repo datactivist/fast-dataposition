@@ -13,6 +13,7 @@ def load_qa(fn_csv: Path, pedantic: bool = False) -> pd.DataFrame:
     questions, possible answers and their weights.
     """
     # TODO rewrite, improve?
+    # read the CSV file
     df = pd.read_csv(
         fn_csv,
         dtype={
@@ -37,6 +38,10 @@ def load_qa(fn_csv: Path, pedantic: bool = False) -> pd.DataFrame:
         },
         inplace=True,
     )
+    # FIXME strip leading and trailing '"' around "long text" fields in airtable
+    # the CSV export from airtable has triple double quotes around "long text" fields,
+    # single double quotes around "simple text" fields
+    df["question"] = df["question"].str.strip('"')
     # drop incomplete lines, including orphan answers
     #  TODO add warning for dropped answers
     df.dropna(axis=0, how="any", inplace=True)
