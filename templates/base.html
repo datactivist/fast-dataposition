@@ -14,29 +14,21 @@
   </head>
 
   <body>
-    <div id="header">
-      {% block header %} Dataposition, un outil
-      <a href="https://datactivist.coop">Datactivist</a>
-      conçu pour le concours DataBât.
-      <small
-        >Sur une idée de la
-        <a href="https://infolabs.io/content/qui-sommes-nous"
-          >Campagne Infolab</a
-        >.</small
-      >
+    <div id="header" class="header">
+      {% block header %}
+      <img width="100%" src="/static/media/databat_banniere_ADEME-V5.png" alt="Concours DataBât">
       {% endblock %}
     </div>
     <div id="content">{% block content %}{% endblock %}</div>
-    <div id="footer">
-      {% block footer %} Dataposition, un outil
+    <div id="footer" class="footer">
+      {% block footer %}
+      <img width=100px src="/static/media/datactivist_logo_couleur.png" alt="Datactivist">
+      Dataposition, un outil
       <a href="https://datactivist.coop">Datactivist</a>
       conçu pour le concours DataBât.
-      <small
-        >Sur une idée de la
-        <a href="https://infolabs.io/content/qui-sommes-nous"
-          >Campagne Infolab</a
-        >.</small
-      >
+      <small>Sur une idée de la
+        <a href="https://infolabs.io/content/qui-sommes-nous">
+        Campagne Infolab</a>.</small>
       {% endblock %}
     </div>
   </body>

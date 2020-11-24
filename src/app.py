@@ -97,8 +97,6 @@ def get_questions(request: Request, order: str = "keep") -> List[QuestionForm]:
             q_form.question.choices = [(w, a) for w, a in sorted(wa.items())]
             # select the lowest value as the default answer
             q_form.question.data = q_form.question.choices[0][0]
-            print(repr(q_form.question.data))
-            print(repr(q_form.question.choices))
             q_forms.append(q_form)
     # randomize the order of questions
     if order == "shuffle":
@@ -140,8 +138,6 @@ async def get_form(request: Request):
 #    + javascript: alpaca? http://www.alpacajs.org/
 #    + stocker les réponses dans la session au fur et à mesure : https://github.com/wtforms/wtforms/issues/250#issuecomment-272004441
 # FIXME
-# - enlever les guillemets autour des questions et réponses
-# - style des questions: couleur du profil autour de question + réponses (background? box?)
 # - position + style bandeau Dataposition - un outil développé par Datactivist
 
 # https://github.com/tiangolo/fastapi/issues/852
@@ -171,6 +167,7 @@ async def parse_form(request: Request) -> Response:
         context={
             "request": request,
             "p_id2color": p_id2color,
+            "p_id2name": p_id2name,
             # personal info
             "name": form_data["name"],
             "email": form_data["email"],

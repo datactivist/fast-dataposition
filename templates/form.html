@@ -1,5 +1,7 @@
-{% extends "base.html" %} {% block title %}Formulaire{% endblock %} {% block
-head %} {{ super() }}
+{% extends "base.html" %}
+{% block title %}Formulaire{% endblock %}
+{% block head %}
+{{ super() }}
 <style type="text/css">
   {% for p_id, p_color in p_id2color.items() %}
   .profile-{{ p_id }}{
@@ -8,12 +10,18 @@ head %} {{ super() }}
   }
   {% endfor %}
 </style>
-{% endblock %} {% block content %}
+{% endblock %}
+{% block content %}
 <div>
   <form method="POST">
-    <div>
-      Nom: {{ dataposition_form.name }}<br />
-      Email: {{ dataposition_form.email }}
+    <div class="div-form-id">
+    <fieldset>
+      <legend>Identification</legend>
+      <table>
+      <tr><td style="text-align:right">Nom&nbsp;:</td><td>{{ dataposition_form.name }}</td></tr>
+      <tr><td style="text-align:right">Email&nbsp;:</td><td>{{ dataposition_form.email }}</td></tr>
+      </table>
+    </fieldset>
     </div>
     {% for q_form in dataposition_form.questions %}
     <div>
@@ -27,7 +35,11 @@ head %} {{ super() }}
       </fieldset>
     </div>
     {% endfor %}
-    <button type="submit">Envoyer</button>
+    <div class="div-btn-submit">
+      <div class="center">
+        <button type="submit">Envoyer</button>
+      </div>
+    </div>
   </form>
 </div>
 {% endblock %}

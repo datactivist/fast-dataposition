@@ -12,24 +12,26 @@
 </style>
 {% endblock %}
 {% block content %}
+  <div>
+    <p>Merci {{ name }}, voici votre bilan :</p>
   <div class="profile-{{ main_p_ids[0] }}">
-    <p>Vos informations de contact: {{ name }} &lt;{{ email }}&gt;</p>
-    <p>Votre bilan :</p>
-    <ul>
+    <table>
       {% for p_id, p_score in profile_scores %}
-      <li>{{ p_id }} : {{ p_score }}</li>
+      <tr><td>{{ p_id2name[p_id] }}&nbsp;</td><td>{{ p_score }}</td></tr>
       {% endfor %}
-    </ul>
+    </table>
   </div>
   {% if main_profiles|length == 1 %}
-  <div>
+  <div class="div-summary-badge">
     Votre profil dominant est :
-    <div><img src="/static/media/{{ main_badges[0] }}" alt="{{ main_profiles[0] }}"></div>
-    <div>
-      Vous pouvez maintenant vous rendre sur le <a href="https://forum-databat.ademe.fr/">forum du concours</a>.
-      Le badge du profil {{ main_profiles[0] }} sera associé à votre compte, il vous aidera à
-      former une équipe complémentaire.
+    <div class="center">
+      <img width=100% src="/static/media/{{ main_badges[0] }}" alt="{{ main_profiles[0] }}">
     </div>
+  </div>
+  <div>
+    Vous pouvez maintenant vous rendre sur le <a href="https://forum-databat.ademe.fr/">forum du concours</a>.
+    Le badge du profil {{ main_profiles[0] }} sera associé à votre compte, il vous aidera à
+    former une équipe complémentaire.
   </div>
   {% else %}
   <div>

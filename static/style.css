@@ -1,10 +1,44 @@
-/* fieldset and its legend */
+/* fieldset : block used for form components, eg. a question and set of possible answers */
 fieldset {
   background-color: #eeeeee;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 /* hide bullets next to radio button */
 fieldset.inlineLabels ul {
   list-style: none;
+}
+/* form: identification block */
+.div-form-id {
+  position: relative;
+  margin-bottom: 2em;
+}
+/* form: submit button */
+.div-btn-submit {
+  height: 100px;
+  position: relative;
+}
+/*  */
+.div-summary-badge {
+  height: auto;
+  position: relative;
+}
+/* header and footer */
+.header {
+  margin-bottom: 1em;
+}
+.footer {
+  margin-top: 1em;
+}
+/* center vertically and horizontally inside block */
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 /* default style for entire body */
 body {
