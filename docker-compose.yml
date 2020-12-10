@@ -1,8 +1,9 @@
-version: "3.3"
+version: "3.5"
 
 services: 
   app:
-    build: .
+    build:
+      context: .
     ports:
       - "80:80"
     environment:
