@@ -1,0 +1,13 @@
+version: "3.3"
+
+services: 
+  app:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - SQLITE_PATH=/dataposition.db
+    env_file:
+      - .env
+    volumes:
+      - "./dataposition.db:/dataposition.db"

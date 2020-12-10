@@ -12,37 +12,63 @@
 </style>
 {% endblock %}
 {% block content %}
-  <div>
-    <p>Merci {{ name }}, voici votre bilan :</p>
-  <div class="profile-{{ main_p_ids[0] }}">
-    <table>
-      {% for p_id, p_score in profile_scores %}
-      <tr><td>{{ p_id2name[p_id] }}&nbsp;</td><td>{{ p_score }}</td></tr>
-      {% endfor %}
-    </table>
+<div id="summary-scores" style="font-size: 16px; margin-top: 2em ; width: 400px; overflow: auto;">
+  Voici vos résultats au Dataposition :<br/><br/>
+  <table>
+    {% for p_id, p_score in profile_scores %}
+    <tr>
+      <td>Score sur le profil {{ p_id2name[p_id] }}&nbsp;</td>
+      <td>{{ p_score }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% if main_profiles|length == 1 %}
+<div class="div-summary-badge" style="margin-top: 2em;">
+  Votre profil dominant est :<br />
+  <div style="width: 200px;">
+    <img width=100% src="/static/media/{{ main_badges[0] }}" alt="{{ main_profiles[0] }}">
   </div>
-  {% if main_profiles|length == 1 %}
-  <div class="div-summary-badge">
-    Votre profil dominant est :
-    <div class="center">
-      <img width=100% src="/static/media/{{ main_badges[0] }}" alt="{{ main_profiles[0] }}">
-    </div>
+  <div class="profile-{{ main_p_ids[0] }}" style="width: 600px; font-size: 18px;">
+    {% if main_profiles[0] == "Ambassadeur" %}
+    L’ambassadeur est celui qui maîtrise les discours de communication, qui sait se montrer clair et efficace dans une
+    démonstration. En résumé, l’interlocuteur de choix pour porter le projet.
+    {% elif main_profiles[0] == "Analyste" %}
+    L’analyste : manier les données, ça le connait ! Il connait leurs forces et leurs faiblesses et les utilise pour
+    produire du savoir.
+    {% elif main_profiles[0] == "Bâtisseur" %}
+    Le bâtisseur est l’expert des solutions techniques, celui qui est le plus capable de produire des prototypes
+    aboutis, le facilitateur du groupe dans les démarches de production.
+    {% elif main_profiles[0] == "Créatif" %}
+    Le créatif est l’astucieux de la bande, celui qui apporte un point de vue original et se montre particulièrement
+    imaginatif dans la production des livrables.
+    {% elif main_profiles[0] == "Expert" %}
+    L’expert maîtrise le sujet de la rénovation énergétique sur le bout des doigts. Il est le garant de la méthodologie,
+    celui capable d’apporter une distanciation critique.
+    {% else %}
+    Le pilote est inspirant et moteur dans la collaboration, il insuffle enthousiasme et confiance au sein du groupe. Il
+    sait faire ressortir le meilleur de ses collaborateurs.
+    {% endif %}
   </div>
-  <div>
-    Vous pouvez maintenant vous rendre sur le <a href="https://forum-databat.ademe.fr/">forum du concours</a>.
-    Le badge du profil {{ main_profiles[0] }} sera associé à votre compte, il vous aidera à
-    former une équipe complémentaire.
+</div>
+{% else %}
+<div>
+  <div style="width: 600px; margin-top: 2em; margin-bottom: 2em; font-size: 18px;">
+    Il semblerait que vous ayez plusieurs cordes à votre arc et que vous ayez obtenu votre meilleur score sur plusieurs
+    profils différents ! Votre équipe aura certainement beaucoup de chances de vous avoir mais essayons tout de même de
+    déterminer votre profil dominant : envoyez un mail à
+    <a href="mailto:julia@datactivist.coop?subject=[DataBât] J'ai plusieurs cordes à mon arc">julia@datactist.coop</a>
+    pour qu’elle démêle les choses avec vous.
   </div>
-  {% else %}
-  <div>
-    Nous hésitons entre ces profils :
-    <ul>
-      {% for p_id in main_profiles %}
-      <li>{{ p_id }}</li>
-      {% endfor%}
-    </ul>
-    Envoyez-nous <a href="mailto:aide.databat@datactivist.coop?subject=QuelProfil">un mail</a>
-    afin que nous puissions déterminer ensemble le profil le plus pertinent.
-  </div>
-  {% endif %}
+</div>
+{% endif %}
+
+<div style="margin-top: 2em; margin-bottom: 2em;">
+  Suite à ce questionnaire, vous recevrez un badge correspondant à votre profil sur
+  <a href="https://forum-databat.ademe.fr/">le forum</a> !
+  Vous pourrez ainsi facilement composer une équipe avec des profils diversifiés en cliquant sur le profil d’un autre
+  participant pour voir quel badge lui a été décerné ou en consultant
+  <a href="https://forum-databat.ademe.fr/badges">la rubrique badge</a>
+  pour connaître la liste de tous les participants correspondant à chaque profil.
+</div>
 {% endblock %}

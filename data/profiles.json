@@ -1,0 +1,38 @@
+[
+    {
+        "id": "ambassadeur",
+        "name": "Ambassadeur",
+        "color": "#6EA0CC",
+        "badge": "dataposition_ambassadeur.png"
+    },
+    {
+        "id": "analyste",
+        "name": "Analyste",
+        "color": "#E46480",
+        "badge": "dataposition_analyste.png"
+    },
+    {
+        "id": "batisseur",
+        "name": "Bâtisseur",
+        "color": "#7A6CB6",
+        "badge": "dataposition_batisseur.png"
+    },
+    {
+        "id": "creatif",
+        "name": "Créatif",
+        "color": "#FF604A",
+        "badge": "dataposition_creatif.png"
+    },
+    {
+        "id": "expert",
+        "name": "Expert",
+        "color": "#46C39B",
+        "badge": "dataposition_expert.png"
+    },
+    {
+        "id": "pilote",
+        "name": "Pilote",
+        "color": "#FBCF1A",
+        "badge": "dataposition_pilote.png"
+    }
+]

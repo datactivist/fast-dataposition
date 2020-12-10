@@ -2,17 +2,12 @@
 fieldset {
   background-color: #eeeeee;
   font-size: 16px;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 /* hide bullets next to radio button */
 fieldset.inlineLabels ul {
   list-style: none;
-}
-/* form: identification block */
-.div-form-id {
-  position: relative;
-  margin-bottom: 2em;
 }
 /* form: submit button */
 .div-btn-submit {
@@ -21,7 +16,7 @@ fieldset.inlineLabels ul {
 }
 /*  */
 .div-summary-badge {
-  height: auto;
+  height: 300px;
   position: relative;
 }
 /* header and footer */

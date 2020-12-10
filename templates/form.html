@@ -24,7 +24,7 @@
     </fieldset>
     </div>
     {% for q_form in dataposition_form.questions %}
-    <div>
+    <div class="div-fieldset">
       <fieldset>
         <legend class="profile-{{ q_form.question.id.split('-', 1)[0] }}">
         {{ q_form.question.label }}
