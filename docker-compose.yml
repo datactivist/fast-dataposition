@@ -6,8 +6,8 @@ services:
     ports:
       - "80:80"
     environment:
-      - SQLITE_PATH=/dataposition.db
+      - SQLITE_PATH=/app/dataposition.db
     env_file:
       - .env
     volumes:
-      - "./dataposition.db:/dataposition.db"
+      - "./dataposition.db:/app/dataposition.db"
