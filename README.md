@@ -81,7 +81,7 @@ alembic upgrade head
 
 ## 2. Deployment on a server with SSL encryption
 
-Make your docker container run on port 8000, to let nginx use port 80 (here we use nano, but use your preffered command line editor) :
+Make your docker container run on port 8000, to let nginx use port 80 (here we use nano, but use your preferred command line editor) :
 
 ```sh
 nano fast-dataposition/docker-compose.yml
